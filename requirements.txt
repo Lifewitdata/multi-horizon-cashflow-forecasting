@@ -1,0 +1,14 @@
+# Tested versions (Python 3.12). Install in order:
+pip install -r requirements.txt
+
+pandas==2.1.4
+numpy==1.26.4
+matplotlib==3.6.3
+statsmodels==0.15.0
+lightgbm==4.7.0
+scikit-learn==1.9.1
+shap==0.52.0
+# NOTE: torch below is the CPU build (enough for this project, ~200MB).
+# For CPU-only install instead run:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
