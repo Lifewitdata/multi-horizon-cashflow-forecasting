@@ -203,9 +203,4 @@ cash-flow-forecasting/
 
 ---
 
-## 📄 Resume block · October 2026
 
-**Multi-Horizon Cash Flow Forecasting | Python, SQL, LightGBM, PyTorch, SHAP | Oct 2026**
-- Built daily cash flow forecasting on 3 years of synthetic B2B data, comparing ARIMA, Holt-Winters, LightGBM and LSTM on one held-out window; LSTM won at MAE 14.38 vs 24.92 for the best statistical baseline
-- Designed 7/30/90-day cumulative forecasts with conformalized 80% prediction intervals, hitting 0.80 and 0.83 coverage on 7 and 30-day horizons
-- Ran 8-fold walk-forward retro testing and scenario analysis showing a pessimistic 90-day outlook turning cash-negative, with SHAP explanations for stakeholder review
